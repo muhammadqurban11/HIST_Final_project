@@ -1,0 +1,39 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');*/
+/*@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');*/
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;600&display=swap');
+body{
+/*	font-family: 'Dancing Script', cursive;*/
+/*font-family: 'Titillium Web', sans-serif;*/
+font-family: 'Titillium Web', sans-serif;
+}
+
+
+@font-face{
+	font-family: header-fonts;
+	src: url(NoizeSportFreeVertion-Regular.ttf);
+/*	src: url(ELNATH.otf);*/
+}
+
+#our_courses_heading,#aboutheader,#teamheader,#contactnmber{
+	font-family: header-fonts;
+	text-shadow: 3px 4px 2px gray;
+}
+
+#khanman{
+	width: 50px;
+	height: 50px;
+	animation-name: sun-rise;
+	animation-duration: 8s;
+	animation-direction: normal;
+	animation-iteration-count:infinite;
+	animation-timing-function: linear;
+}
+
+@keyframes sun-rise {
+  from {
+    transform: translateX(0vw);
+  }
+  to {
+    transform: translateX(90vw);
+  }
+}
